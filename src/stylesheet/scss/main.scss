@@ -1,0 +1,25 @@
+@import "core/variables";
+@import "core/common";
+@import "core/section01";
+@import "core/section02";
+
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+a:link, a:hover, a:visited, a:active {
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  line-height: 0;
+}
+
+p {
+  margin: 0;
+}

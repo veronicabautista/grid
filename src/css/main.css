@@ -1,0 +1,167 @@
+.main__container {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.section--tittle {
+  color: black;
+  font-size: 32px;
+  font-weight: 900; }
+
+.news--nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px; }
+
+.view--all-btn {
+  background: #00DB92;
+  font-family: "Raleway", sans-serif;
+  border-style: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 9px 25px 9px 25px;
+  max-height: 40px;
+  display: flex;
+  align-items: center; }
+
+.btn-arrow {
+  padding-left: 15px; }
+
+.new-hover:hover {
+  opacity: 0.8; }
+
+.text-position {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 28px; }
+
+.img-bg {
+  background-position: center;
+  background-size: cover; }
+
+.news__category--container {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.news--main--tittle {
+  font-size: 36px;
+  font-weight: 900;
+  max-width: 610px; }
+
+.btn-play {
+  width: 25px;
+  height: 25px;
+  padding-right: 8px; }
+
+.category {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500; }
+
+.secondary--news {
+  font-size: 24px;
+  font-weight: 900;
+  max-width: 470px; }
+
+.general--news {
+  font-size: 18px;
+  font-weight: 900;
+  max-width: 280px; }
+
+.container--news01 {
+  max-width: 1366px;
+  height: 610px;
+  color: white;
+  padding: 90px 117px 90px 117px; }
+
+.section01__container {
+  height: 550px;
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 6px; }
+  .section01__container a:link, .section01__container a:hover, .section01__container a:visited, .section01__container a:active {
+    color: white; }
+
+.section01--new01 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.65) 0%, rgba(216, 216, 216, 0) 100%), url("../images/home01-new01.png"); }
+
+.section01--new02 {
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.65) 0%, rgba(216, 216, 216, 0) 100%), url("../images/home01-new02.png");
+  background-position: center;
+  background-size: cover; }
+
+.section01--new03 {
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.65) 0%, rgba(216, 216, 216, 0) 100%), url("../images/home01-new03.png");
+  background-position: center;
+  background-size: cover; }
+
+.section02__container {
+  height: 550px;
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(4, 25%);
+  grid-gap: 6px 6px; }
+  .section02__container a:link, .section02__container a:hover, .section02__container a:visited, .section02__container a:active {
+    color: white; }
+
+.section02--new01 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.65) 0%, rgba(216, 216, 216, 0) 100%), url("../images/home02-new01.png"); }
+
+.section02--new02 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.65) 0%, rgba(216, 216, 216, 0) 100%), url("../images/home02-new02.png"); }
+
+.section02--new03 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.65) 0%, rgba(216, 216, 216, 0) 100%), url("../images/home02-new03.png"); }
+
+.section02--new04 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: #7EA9AE; }
+
+.section02--new05 {
+  background-color: #7EA9AE; }
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden; }
+
+a:link, a:hover, a:visited, a:active {
+  text-decoration: none; }
+
+h1, h2, h3 {
+  line-height: 0; }
+
+p {
+  margin: 0; }
